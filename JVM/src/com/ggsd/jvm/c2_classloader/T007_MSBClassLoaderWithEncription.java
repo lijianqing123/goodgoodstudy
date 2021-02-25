@@ -37,7 +37,7 @@ public class T007_MSBClassLoaderWithEncription extends ClassLoader {
 
     public static void main(String[] args) throws Exception {
 
-        encFile("com.mashibing.jvm.hello");
+        encFile("com.ggsd.jvm.hello");
 
         ClassLoader l = new T007_MSBClassLoaderWithEncription();
         Class clazz = l.loadClass("com.ggsd.jvm.Hello");
